@@ -2,7 +2,7 @@
 
 # Olá, eu sou o Leonardo Baião 👋
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Desenvolvedor+Back-End+%F0%9F%92%BB;Especialista+em+Automa%C3%A7%C3%A3o+%F0%9F%A4%96;Estudante+de+Ci%C3%AAncia+de+Dados+%F0%9F%93%8A)](https://github.com/Leobaiao)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Desenvolvedor+Back-End+%F0%9F%92%BB;Especialista+em+Automa%C3%A7%C3%A3o+%F0%9F%A4%96;Estudante+de+Ci%C3%AAncia+de+Dados+%F0%9F%93%8A)](https://github.com/Leobaiao)
 
 <img src="https://avatars.githubusercontent.com/u/143014306?v=4" width="200" style="border-radius: 50%;" alt="Leonardo Baião"/>
 
@@ -122,24 +122,23 @@ class Leonardo:
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Leobaiao&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leobaiao&layout=compact&langs_count=8&theme=tokyonight"/>
+  <a href="https://github.com/Leobaiao">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Leobaiao&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=1800"/>
+  </a>
+  <a href="https://github.com/Leobaiao">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leobaiao&layout=compact&langs_count=8&theme=tokyonight&cache_seconds=1800"/>
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Leobaiao&theme=tokyonight" alt="GitHub Streak"/>
+  <a href="https://github.com/Leobaiao">
+    <img src="https://streak-stats.demolab.com?user=Leobaiao&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
+  </a>
 </div>
 
 ---
 
 ## 🏆 Projetos em Destaque
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Leobaiao&repo=confeitariaEuforia&theme=tokyonight)](https://github.com/Leobaiao/confeitariaEuforia)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Leobaiao&repo=whatsapp-automacao&theme=tokyonight)](https://github.com/Leobaiao/whatsapp-automacao)
-
-</div>
 
 | Projeto | Descrição | Tech |
 |---------|-----------|------|
@@ -164,14 +163,6 @@ class Leonardo:
 
 ---
 
-## 📈 Gráfico de Contribuições
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Leobaiao&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
-</div>
-
----
-
 ## 🎯 Atualmente
 
 - 🔭 Trabalhando na **Alt 360 Desenvolvimento** com sistemas back-end
@@ -185,7 +176,9 @@ class Leonardo:
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Leobaiao&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+  <a href="https://github.com/Leobaiao">
+    <img src="https://github-profile-trophy.vercel.app/?username=Leobaiao&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+  </a>
 </div>
 
 ---
@@ -201,7 +194,5 @@ class Leonardo:
 ---
 
 **Feito com 💜 por [Leonardo Baião](https://github.com/Leobaiao)**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer"/>
 
 </div>
