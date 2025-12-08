@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Leonardo Baião - Desenvolvedor especializado em automação, APIs e soluções tecnológicas inovadoras.">
+    <meta name="keywords" content="Leonardo Baião, Desenvolvedor, Python, Automação, APIs, Selenium, Appium">
+    <meta name="author" content="Leonardo Baião">
+
+    <title>Leonardo Baião | Desenvolvedor & Especialista em Automação</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">&lt;LB&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-greeting">Olá, eu sou</span>
+                <h1 class="hero-title typing-effect">{{ data.name }}</h1>
+                <div class="hero-roles">
+                    <span class="role-text" id="role-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Desenvolvedor apaixonado por <span class="highlight">automação</span> e
+                    <span class="highlight">soluções inovadoras</span>. Transformo ideias em código
+                    e processos manuais em sistemas inteligentes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Ver Projetos
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contato
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="13">0</span>
+                        <span class="stat-label">Repositórios</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-label">Linguagens</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2">0</span>
+                        <span class="stat-label">Anos Exp.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-glow"></div>
+                    <img src="{{ data.avatar_url }}" alt="{{ data.name }}" class="avatar">
+                    <div class="floating-icons">
+                        <div class="float-icon python"><i class="fab fa-python"></i></div>
+                        <div class="float-icon js"><i class="fab fa-js"></i></div>
+                        <div class="float-icon git"><i class="fab fa-github"></i></div>
+                        <div class="float-icon api"><i class="fas fa-plug"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-user"></i></span>
+                Sobre Mim
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Sou um <strong>desenvolvedor brasileiro</strong> focado em criar soluções que
+                        fazem a diferença. Minha especialidade é transformar processos manuais e
+                        repetitivos em sistemas automatizados eficientes.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>Automação Inteligente</h4>
+                                <p>Desenvolvo bots e scripts que economizam horas de trabalho manual, utilizando
+                                    ferramentas como Selenium, Appium e APIs REST.</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Desenvolvimento Web</h4>
+                                <p>Crio aplicações web modernas com Python (Flask), TypeScript e C#, sempre focando em
+                                    performance e experiência do usuário.</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Soluções Criativas</h4>
+                                <p>Cada projeto é uma oportunidade de inovar. Busco sempre a melhor solução técnica para
+                                    cada desafio apresentado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="{{ data.github_url }}" target="_blank" class="btn btn-github">
+                            <i class="fab fa-github"></i> Ver GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="about-code">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                            <span class="code-title">developer.py</span>
+                        </div>
+                        <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name = <span class="string">"Leonardo Baião"</span>
+        <span class="param">self</span>.role = <span class="string">"Automation Developer"</span>
+        <span class="param">self</span>.languages = [
+            <span class="string">"Python"</span>, <span class="string">"TypeScript"</span>, 
+            <span class="string">"C#"</span>, <span class="string">"JavaScript"</span>
+        ]
+        <span class="param">self</span>.passion = <span class="string">"Automação"</span>
+    
+    <span class="keyword">def</span> <span class="function">solve_problems</span>(<span class="param">self</span>):
+        <span class="keyword">while</span> <span class="boolean">True</span>:
+            <span class="param">self</span>.learn()
+            <span class="param">self</span>.code()
+            <span class="param">self</span>.automate()
+            <span class="keyword">yield</span> <span class="string">"🚀 Done!"</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-code"></i></span>
+                Habilidades & Tecnologias
+            </h2>
+            <div class="skills-grid">
+                {% for skill in data.skills %}
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="{{ skill.icon }}"></i>
+                    </div>
+                    <h3 class="skill-name">{{ skill.name }}</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="{{ skill.level }}"></div>
+                    </div>
+                    <span class="skill-level">{{ skill.level }}%</span>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="tech-cloud">
+                <h3 class="tech-title">Tecnologias que Utilizo</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Selenium</span>
+                    <span class="tech-tag">Appium</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">.NET Core</span>
+                    <span class="tech-tag">WebDriver</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-folder-open"></i></span>
+                Meus Projetos
+            </h2>
+            <p class="section-subtitle">
+                Confira alguns dos projetos que desenvolvi recentemente
+            </p>
+            <div class="projects-grid">
+                {% for project in data.projects %}
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="{{ project.icon }}"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="{{ project.url }}" target="_blank" class="project-link" title="Ver no GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            {% if project.demo_url %}
+                            <a href="{{ project.demo_url }}" target="_blank" class="project-link" title="Ver Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <h3 class="project-title">{{ project.name }}</h3>
+                    <p class="project-description">{{ project.description }}</p>
+                    <div class="project-footer">
+                        <span class="project-language">
+                            <span class="language-dot {{ project.language.lower() }}"></span>
+                            {{ project.language }}
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="projects-cta">
+                <a href="{{ data.github_url }}?tab=repositories" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> Ver Todos os Repositórios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-briefcase"></i></span>
+                Serviços
+            </h2>
+            <p class="section-subtitle">
+                Como posso ajudar você ou sua empresa
+            </p>
+            <div class="services-grid">
+                {% for service in data.services %}
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="{{ service.icon }}"></i>
+                    </div>
+                    <h3 class="service-title">{{ service.title }}</h3>
+                    <p class="service-description">{{ service.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-envelope"></i></span>
+                Vamos Conversar?
+            </h2>
+            <p class="section-subtitle">
+                Tem um projeto em mente? Entre em contato!
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="{{ data.github_url }}" target="_blank">@{{ data.username }}</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Localização</h4>
+                            <p>Brasil</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Disponibilidade</h4>
+                            <p>Aberto a Propostas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <h4>Conecte-se comigo</h4>
+                    <div class="social-links">
+                        <a href="{{ data.github_url }}" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/leonardo-baiao/" target="_blank"
+                            class="social-link linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:leobaiao966@gmail.com" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/5511976131029" target="_blank" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>&lt;LB/&gt;</span>
+                </div>
+                <p class="footer-text">
+                    Desenvolvido com <i class="fab fa-python"></i> por
+                    <strong>Leonardo Baião</strong>
+                </p>
+                <p class="footer-year">&copy; 2024 - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
