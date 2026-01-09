@@ -59,7 +59,7 @@ class Leonardo:
 ## 💼 Experiência Profissional
 
 ### 🏢 Alt 360 Desenvolvimento
-**Estagiário em T.I.** | 2024 - Presente
+**Estagiário em T.I.** | 2024 - 2026
 
 - 🔧 Manutenção de sistemas utilizando **C#** e **SQL Server**
 - 🔌 Desenvolvimento e suporte à integração de **APIs REST**
@@ -193,6 +193,6 @@ class Leonardo:
 
 ---
 
-**Feito com 💜 por [Leonardo Baião](https://github.com/Leobaiao)**
+**Feito por [Leonardo Baião](https://github.com/Leobaiao)**
 
 </div>
