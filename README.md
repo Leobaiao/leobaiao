@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Desenvolvedor+Back-End+%F0%9F%92%BB;Especialista+em+Automa%C3%A7%C3%A3o+%F0%9F%A4%96;Estudante+de+Ci%C3%AAncia+de+Dados+%F0%9F%93%8A)](https://github.com/Leobaiao)
 
-<img src="https://avatars.githubusercontent.com/u/143014306?v=4" width="200" style="border-radius: 50%;" alt="Leonardo Baião"/>
+
 
 ### 🧑🏽‍💻 Dev Back-End focado em automação e soluções robustas
 
